@@ -29,7 +29,7 @@ public class SQLConsoleDemo extends Application {
 		System.out.println("Driver Loaded");
 
 		//ESTABLISH CONNECTION
-                //MODIFY '(port)/database & 'user' & 'password' to connect to a specific databse
+                //MODIFY '(port)/database' & 'user' & 'password' to connect to a specific database 
 		Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:(port)/database", "user", "password");
 		System.out.println("Database connected!");
 
