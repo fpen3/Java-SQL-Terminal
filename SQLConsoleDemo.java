@@ -10,11 +10,6 @@ import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
-
-/*Frank Pena
-COMP-271-001RL
-Class lab 21*/
-
 public class SQLConsoleDemo extends Application {
 	SQLConsolePane pane = new SQLConsolePane();
 	
